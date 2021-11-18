@@ -1,11 +1,7 @@
 # Projeto Clone do 'Facebook'
 
-<div align="center">
- <video id="video" muted="" class="gifyt-player gifyt-embed" preload="auto" poster="https://j.gifs.com/vQmMK8.jpg" loop="" autoplay="" playsinline="">                           source src="https://j.gifs.com/vQmMK8@large.mp4" type="video/mp4">
- <source src="https://j.gifs.com/vQmMK8.mp4" type="video/mp4">
-</video>
-</div>
 
+https://user-images.githubusercontent.com/67977860/142442710-96326549-e550-44f3-99e4-3d9ed903cd97.gif
 
 *Projeto feito com o foco em animações*
 
