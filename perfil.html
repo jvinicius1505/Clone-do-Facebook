@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylePerfil.css">
+    <link rel="stylesheet" href="animacoes.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <p style="color: white">Facebook</p>
+        <input type="search" name="pesquisa" id="inputPesquisa" style="height: 2em; align-self: center;">
+        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="Foto minimizada" style="max-height: 90%;">
+        <strong class="nome" style="color: white; align-self: center"></strong>
+        <button class="icones timeline" onclick="irTimeline()">Timeline</button>
+        <button class="icones perfil" onclick="irPerfil()">Perfil</button>
+        <button class="icones sair" onclick="irLogin()">Sair</button>
+    </header>
+
+    <div id="megaContainer">
+        <div id="perfil">
+            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="Foto minimizada" style="width: 10%;" class="fotoPerfil imagem">
+            <div class="barrinha">
+                <ul>
+                    <li class="timeline">Timeline</li>
+                    <li>Fotos</li>
+                    <li>Amigos</li>
+                    <li>Sobre</li>
+                    <li>Mais+</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="container">
+            <div id="esquerda">                
+                <br>
+                <div class="intro">
+                    <h2>Intro</h2>
+                    <hr class="linha linha1">
+                    <ul>
+                        <li>Trabalha</li>
+                        <li>Estuda</li>
+                        <li>Namora</li>
+                        <li>De Pernambuco</li>
+                    </ul>
+                </div>
+                <br>
+
+                <div class="fotos">
+                    <h2>Fotos</h2>
+                    <div>
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" class="imagem" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" class="imagem" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" class="imagem" alt="">
+                    </div>
+                </div>
+                <br>
+
+                <div class="amigos">
+                    <h2>Amigos</h2>
+                    <div>
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="direita">
+                <div id="post">
+                    <div class="pessoa">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <strong class="nome"></strong>
+                    </div>
+
+                    <div class="legenda">
+                        <p>Eu e os manos</p>
+                    </div>
+
+                    <br>
+
+                    <div class="imagemPost">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" class="imagem" alt="">
+                    </div>
+                        <hr class="linha linha2">
+
+                        <div class="status">
+                        </div>
+
+                        <hr class="linha linha3">
+
+                        <div class="comentario">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                            <input type="text" name="" id="comentarioPost" placeholder="Escreva um comentário...">
+                        </div>
+
+
+                </div>
+
+                <div id="publicacoes"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="popUps">
+        <div class="divFotoPerfil">
+            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+            <div class="lateral">                
+                <div class="pessoa">
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                    <strong class="nome"></strong>                        
+                </div>
+                <div class="comentarios">
+                    <div class="pessoas">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <p>Vicente</p>
+                        <h5>Oloco</h5>
+                    </div>
+                    <div class="pessoas">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <p>Ana</p>
+                        <h5>Show</h5>
+                    </div>
+                    <div class="pessoas">
+                        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                        <p>Pessoa</p>
+                        <h5>Stonks</h5>
+                    </div>
+                    <div class="ultimo">
+                        <div class="status2">                    
+                        </div>
+                        <hr class="linha linha3">
+                        <div class="comentario">
+                            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                            <input type="text" name="" id="comentarioFoto" placeholder="Escreva um comentário...">
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+<script src="script.js"></script>
+
+</html>

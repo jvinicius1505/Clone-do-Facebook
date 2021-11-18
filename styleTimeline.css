@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    background: rgb(167, 198, 202);
+    overflow: visible;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "comoEstou"
+    "timeline";
+    grid-template-rows: 60px 200px 1fr;
+}
+
+header{
+    grid-area: header;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    z-index: 20;
+    margin-bottom: 50px;
+}
+
+header input{
+    width: 30%;
+    margin-right: 10%;
+}
+
+header p{
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+header img{
+    margin: 3px;
+}
+
+header strong{
+    margin-right: 10%;
+}
+
+.icones{
+    border-radius: 100%;
+    width: 50px;
+    background-color: white;
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+#comoEstou{
+    grid-area: comoEstou;
+    margin-left: auto;
+    margin-right: auto;
+    height: 120px;
+    width: 45%;
+    padding: 1%;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+#escrever{
+    border: none;
+    width: 100%;
+    resize: none;
+    overflow-y: hidden;
+}
+
+#preview{
+    border-radius: 0;
+}
+
+/* .botao{
+    border: none;
+    background: blue;
+    bottom: 0%;
+    right: 0%;
+} */
+
+#timeline{
+    grid-area: timeline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#post{
+    padding: 2%;
+    background-color: white;
+}
+
+.linha2{
+    width: 100%;
+}
+
+#post .pessoa{
+    display:flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.pessoa img{
+    height: 40px;
+    border-radius: 50%;
+}
+
+.legenda{
+    margin-bottom: -2%;
+}
+
+
+.imagemPost img{
+    width: 100%;
+}
+
+.status{
+    margin-left: 0%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+.status input{
+    border: none;
+    color: gray;
+    background: none;
+    cursor: pointer;
+}
+
+.linha3{
+    width: 104%;
+    margin-left: -2%;
+}
+
+.comentario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 1%;
+}
+
+.comentario img{
+    height: 38px;
+}
+
+#comentarioPost{
+    height: 32px;
+    width: 110%;
+}

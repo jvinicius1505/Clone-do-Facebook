@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleTimeline.css">
+    <link rel="stylesheet" href="animacoes.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <p style="color: white">Facebook</p>
+        <input type="search" name="pesquisa" id="inputPesquisa" style="height: 2em; align-self: center;">
+        <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="Foto minimizada" style="max-height: 90%;">
+        <strong class="nome" style="color: white; align-self: center"></strong>
+        <button class="icones timeline" onclick="irTimeline()">Timeline</button>
+        <button class="icones perfil" onclick="irPerfil()">Perfil</button>
+        <button class="icones sair" onclick="irLogin()">Sair</button>
+    </header>
+
+    
+    <div id="comoEstou">
+        <div class="pessoa">
+            <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+            <strong class="nome"></strong>
+            <div id="img-container">
+                <textarea id="escrever" placeholder="Como estou me sentindo..." rows="4"></textarea> 
+                <div class="imagem"></div> 
+                <div class="botoes">
+                    <input id="img-input" type="file" accept="image/*" class="botao"> 
+                    <input type="button" value="Apagar" id="apagar" class="botao">
+                    <input type="button" value="Publicar" id="publicar" class="botao">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="timeline">
+        <div id="post">
+            <div class="pessoa">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                <strong class="nome"></strong>
+            </div>
+
+            <div class="legenda">
+                <p>Eu e os manos</p>
+            </div>
+
+            <br>
+
+            <div class="imagemPost">
+                <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" class="imagem" alt="">
+            </div>
+                <hr class="linha linha2">
+
+                <div class="status">
+                </div>
+
+                <hr class="linha linha3">
+
+                <div class="comentario">
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="">
+                    <input type="text" name="" id="comentarioPost" placeholder="Escreva um comentário...">
+                </div>
+        </div>
+
+        <div id="bapo">
+
+        </div>
+
+
+    
+</body>
+
+<script src="scriptTimeline.js"></script>
+
+</html>

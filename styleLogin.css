@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    background: rgb(187, 187, 187);
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    animation-name: fadeScale;
+    animation-duration: 1s;
+}
+
+.esquerda{
+    background: gray;
+    width: 30%;
+    height: 50%;
+}
+
+.barra{
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.direita{    
+    background: rgb(105, 168, 240);
+    width: 28%;
+    height: 48%;  
+    border: solid 7px gray;  
+}
+
+.direita #form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+#email, #senha{
+    border: none;
+    width: 70%;
+    height: 2em;
+    border-radius: 5px;
+    animation-name: chegar;
+    animation-duration: 0.8s;
+}
+
+#logar{
+    border: none;
+    width: 71%;
+    height: 2em;
+    border-radius: 5px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    animation-name: chegar;
+    animation-delay: 0.3s;
+    animation-duration: 0.8s;
+    animation-fill-mode: backwards;
+}
+
+#esqueceu{
+    border: none;
+    color: blue;
+    background: none;
+    cursor: pointer;
+}
+
+#esqueceu:hover{
+    text-decoration: underline;
+}
+
+hr{
+    color: gainsboro;
+    width: 85%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#naoCadastro{
+    border: none;
+    width: 71%;
+    height: 2em;
+    border-radius: 5px;
+    background: green;
+    color: white;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.error{
+    animation-name: non;
+    animation-duration: 1s;
+}
+
